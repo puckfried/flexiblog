@@ -3,10 +3,14 @@ body {
     width: 80%;
     margin: 0 auto;
     box-sizing: border-box;
+
 }
+
+
 
 .header {
     /* display: flex; */
+    margin-top: 10px;
     justify-content: space-between;
     height: 80px;
     background-color: white;
@@ -44,8 +48,18 @@ input.search {
 .navitem {
     margin-left: 15px;
     font-weight: bold;
+    color: #718096;
 }
 
+body a:link {
+    text-decoration: none;
+    color: #718096;
+}
+
+body a:visited {
+    text-decoration: none;
+    color: #718096;
+}
 
 .main {
     background-color: #f8f8f8;
@@ -95,7 +109,7 @@ input.search {
     margin-top: 70px;
     margin-right: 20px;
     padding-top: 70px;
-    padding-left: 50px;
+    padding-left: 20px;
     width: 20%;
     background-color: #edf2f7;
     flex-direction: column;
@@ -106,6 +120,8 @@ input.search {
 
 .sidebar .container {
     flex-direction: column;
+    margin-left: 20px;
+    margin-right: 10px;
     align-items: flex-start;
     height: 50%;
     
@@ -116,11 +132,10 @@ input.search {
 }
 
 .sidebar .button {
-    width: 100px;
+    width: 200px;
     height: 50px;
-   
-    
-    justify-content: flex-end;
+    margin: 0 auto;
+  
     
 }
 
