@@ -31,6 +31,18 @@ body {
     width: 33%;
 }
 
+@media (max-width: 800px) {
+    .searchbar {
+        display: none;
+    }
+
+    .blockcenter img {
+    
+        display: none;
+    }
+    
+}
+
 
 input.search {
     background-color: #e2e8f0;
@@ -111,6 +123,7 @@ body a:visited {
     padding-top: 70px;
     padding-left: 20px;
     width: 20%;
+    min-width: 200px;
     background-color: #edf2f7;
     flex-direction: column;
     align-items: flex-start;
@@ -122,8 +135,7 @@ body a:visited {
     flex-direction: column;
     margin-left: 20px;
     margin-right: 10px;
-    align-items: flex-start;
-    height: 50%;
+    
     
 }
 
@@ -132,9 +144,9 @@ body a:visited {
 }
 
 .sidebar .button {
-    width: 200px;
+    width: 190px;
     height: 50px;
-    margin: 0 auto;
+    margin: 40px auto;
   
     
 }
@@ -149,6 +161,9 @@ body a:visited {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+
+
 
 .lowercenter {
     flex-wrap: wrap;
