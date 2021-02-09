@@ -139,6 +139,20 @@ body a:visited {
     
 }
 
+.container li {
+    list-style: none;
+}
+
+.container li::before {
+    content: "\2022";
+    color: #5fbc79;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.6em;
+}
+
 .container img {
     width: 80px;
 }
